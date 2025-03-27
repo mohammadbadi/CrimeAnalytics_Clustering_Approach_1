@@ -1,0 +1,144 @@
+set_number,features,best_eps,best_min_samples,best_silhouette_score,top10_eps,top10_min_samples,top10_eps_min,top10_eps_max,top10_min_samples_min,top10_min_samples_max
+1,"['LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'LOCATION_Freq']",1,5,0.2816172776146293,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+2,"['LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'PREMISES_Freq']",1,5,0.2455724868916277,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+3,"['LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.23770837883571527,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+4,"['LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.5209779032312343,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+5,"['LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.518313171618107,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+6,"['LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.5209018011759565,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+7,"['LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.526321132287481,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+8,"['LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.5236065081051019,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+9,"['LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.5261262359117764,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+10,"['OCC_YEAR', 'LONG_LAT_PCA', 'Division_Freq', 'LOCATION_Freq']",1,5,0.10652130269173436,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+11,"['OCC_YEAR', 'LONG_LAT_PCA', 'Division_Freq', 'PREMISES_Freq']",1,5,0.12303831021338048,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+12,"['OCC_YEAR', 'LONG_LAT_PCA', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.18615465228851386,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+13,"['OCC_YEAR', 'LONG_LAT_PCA', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.5018273590281812,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+14,"['OCC_YEAR', 'LONG_LAT_PCA', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.4999250112637973,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+15,"['OCC_YEAR', 'LONG_LAT_PCA', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.5029141374784672,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+16,"['OCC_YEAR', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.5073807966447867,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+17,"['OCC_YEAR', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.505442029993318,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+18,"['OCC_YEAR', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.5083599088096072,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+19,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'LOCATION_Freq']",1,5,0.1624220984274519,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+20,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'PREMISES_Freq']",1,5,0.14438722423226039,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+21,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'Loca_Premi_Freq']",1,5,0.1512651883770782,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+22,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq']",1,5,0.3219122712722609,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+23,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'LOCATION_Freq']",1,5,0.19239300563271153,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 15, 10]",1,1,5,15
+24,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'PREMISES_Freq']",1,15,0.15367958261508474,"[np.int64(1), np.int64(1), np.int64(1)]","[15, 5, 10]",1,1,5,15
+25,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.16017597046991558,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+26,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq']",1,5,0.510252202094161,"[np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+27,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.4530338950654332,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 15, 5, 10]",1,2,5,15
+28,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.4518748135061671,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+29,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.454612129098985,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+30,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier']",1,5,0.5155636864406208,"[np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+31,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.4579312014361347,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 15, 5, 10]",1,3,5,15
+32,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.45674412268952563,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+33,"['OCC_YEAR', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.4594262332715469,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+34,"['OCC_DAY', 'LONG_LAT_PCA', 'Division_Freq', 'LOCATION_Freq']",1,5,0.10373152935876744,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+35,"['OCC_DAY', 'LONG_LAT_PCA', 'Division_Freq', 'PREMISES_Freq']",1,5,0.12238570739491468,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+36,"['OCC_DAY', 'LONG_LAT_PCA', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.17955046137437292,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+37,"['OCC_DAY', 'LONG_LAT_PCA', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.4991255385101787,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+38,"['OCC_DAY', 'LONG_LAT_PCA', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.4972395678620782,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+39,"['OCC_DAY', 'LONG_LAT_PCA', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.4999375000228836,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+40,"['OCC_DAY', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.5047053089049729,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+41,"['OCC_DAY', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.5027857993530773,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+42,"['OCC_DAY', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.5054121037928366,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+43,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'LOCATION_Freq']",1,5,0.16053984023742432,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+44,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'PREMISES_Freq']",1,5,0.14360535652630327,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+45,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'Loca_Premi_Freq']",1,5,0.14503639366484122,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+46,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq']",1,5,0.3180146822264914,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+47,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'LOCATION_Freq']",1,5,0.1895419741584442,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+48,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'PREMISES_Freq']",1,5,0.10226159056606565,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+49,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.1534355135328105,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+50,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq']",1,5,0.5076406897349952,"[np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+51,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.45130559372024576,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 15, 5, 10]",1,2,5,15
+52,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.4501257019081712,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+53,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.45268055587068995,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+54,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier']",1,5,0.5129657259701459,"[np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+55,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.456222500332956,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+56,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.4550163714814454,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+57,"['OCC_DAY', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.4575147264240418,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+58,"['OCC_DOY', 'LONG_LAT_PCA', 'Division_Freq', 'LOCATION_Freq']",1,5,0.10129444172557027,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+59,"['OCC_DOY', 'LONG_LAT_PCA', 'Division_Freq', 'PREMISES_Freq']",1,5,0.0835723230558927,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+60,"['OCC_DOY', 'LONG_LAT_PCA', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.1800926154551694,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+61,"['OCC_DOY', 'LONG_LAT_PCA', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.49867911239931706,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+62,"['OCC_DOY', 'LONG_LAT_PCA', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.4968894113767142,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+63,"['OCC_DOY', 'LONG_LAT_PCA', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.49962464351608105,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+64,"['OCC_DOY', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.5042481966101795,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+65,"['OCC_DOY', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.5024272837426241,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+66,"['OCC_DOY', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.505090856917561,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+67,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'LOCATION_Freq']",1,5,0.1574411405066319,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+68,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'PREMISES_Freq']",1,5,0.1439743390161631,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+69,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'Loca_Premi_Freq']",1,5,0.14537163230858652,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+70,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq']",1,5,0.317898597795751,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+71,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'LOCATION_Freq']",1,5,0.14947818801401197,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+72,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'PREMISES_Freq']",1,10,0.13623744393369655,"[np.int64(1), np.int64(1), np.int64(1)]","[10, 15, 5]",1,1,5,15
+73,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.1537395991005434,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+74,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq']",1,5,0.5072991526346102,"[np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+75,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.4509075373471424,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+76,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.44979049673147053,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+77,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.45236722915068905,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+78,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier']",1,5,0.5126162197716968,"[np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+79,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.4558155245042759,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+80,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.45467358151744025,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+81,"['OCC_DOY', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.45719397589016725,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+82,"['OCC_HOUR', 'LONG_LAT_PCA', 'Division_Freq', 'LOCATION_Freq']",1,5,0.10463493143056889,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+83,"['OCC_HOUR', 'LONG_LAT_PCA', 'Division_Freq', 'PREMISES_Freq']",1,5,0.1367612103940051,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+84,"['OCC_HOUR', 'LONG_LAT_PCA', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.1829812928510056,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+85,"['OCC_HOUR', 'LONG_LAT_PCA', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.49976206048516014,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+86,"['OCC_HOUR', 'LONG_LAT_PCA', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.4979976170916582,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+87,"['OCC_HOUR', 'LONG_LAT_PCA', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.5001478428102146,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+88,"['OCC_HOUR', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.5053782514558415,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+89,"['OCC_HOUR', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.5035846415981933,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+90,"['OCC_HOUR', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.5056614574169817,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+91,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'LOCATION_Freq']",1,5,0.1584001305472123,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+92,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'PREMISES_Freq']",1,5,0.1538545429583941,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+93,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'Loca_Premi_Freq']",1,5,0.14401088485123584,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+94,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq']",1,5,0.3202234845668145,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+95,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'LOCATION_Freq']",1,5,0.1907071767611819,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+96,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'PREMISES_Freq']",1,5,0.16873941668926096,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+97,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.15410025392661164,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+98,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq']",1,5,0.5080971229168965,"[np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+99,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.4512279263992433,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+100,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.4500775689136323,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+101,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.4522850551473908,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+102,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier']",1,5,0.5134635881392996,"[np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+103,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.45617331949239376,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+104,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.4549985332080443,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+105,"['OCC_HOUR', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.4571490533122235,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+106,"['OCC_MONTH_Num', 'LONG_LAT_PCA', 'Division_Freq', 'LOCATION_Freq']",1,5,0.10112504437884937,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+107,"['OCC_MONTH_Num', 'LONG_LAT_PCA', 'Division_Freq', 'PREMISES_Freq']",1,5,0.08456153645468194,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+108,"['OCC_MONTH_Num', 'LONG_LAT_PCA', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.1801655583787805,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+109,"['OCC_MONTH_Num', 'LONG_LAT_PCA', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.49850189703243303,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+110,"['OCC_MONTH_Num', 'LONG_LAT_PCA', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.4967279750632072,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+111,"['OCC_MONTH_Num', 'LONG_LAT_PCA', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.4994575321849776,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+112,"['OCC_MONTH_Num', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.5040747283687372,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+113,"['OCC_MONTH_Num', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.5022694295620931,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+114,"['OCC_MONTH_Num', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.5049270911510975,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+115,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'LOCATION_Freq']",1,5,0.15707408635546335,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+116,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'PREMISES_Freq']",1,5,0.14410211497042996,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+117,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'Loca_Premi_Freq']",1,5,0.1453945870951593,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+118,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq']",1,5,0.31793713021443737,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+119,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'LOCATION_Freq']",1,5,0.15026211065101502,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+120,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'PREMISES_Freq']",1,10,0.1394781774824625,"[np.int64(1), np.int64(1), np.int64(1)]","[10, 15, 5]",1,1,5,15
+121,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.15375913330876304,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+122,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq']",1,5,0.5071630039784065,"[np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+123,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.45074158083988897,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+124,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.4496336383044661,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+125,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.4522074009714838,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+126,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier']",1,5,0.5124816759303049,"[np.int64(1), np.int64(1), np.int64(1), np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+127,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.4556517302775988,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+128,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.45451883282741107,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+129,"['OCC_MONTH_Num', 'LONG_WGS84', 'LAT_WGS84', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.45703618604502866,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15, 5, 10, 15]",1,3,5,15
+130,"['DOW_Category_Freq', 'LONG_LAT_PCA', 'Division_Freq', 'LOCATION_Freq']",1,5,0.16520475833871381,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+131,"['DOW_Category_Freq', 'LONG_LAT_PCA', 'Division_Freq', 'PREMISES_Freq']",1,5,0.26625030572257913,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+132,"['DOW_Category_Freq', 'LONG_LAT_PCA', 'Division_Freq', 'Loca_Premi_Freq']",1,5,0.2904643151507735,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+133,"['DOW_Category_Freq', 'LONG_LAT_PCA', 'HOOD_Freq', 'LOCATION_Freq']",2,5,0.4995081498757596,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+134,"['DOW_Category_Freq', 'LONG_LAT_PCA', 'HOOD_Freq', 'PREMISES_Freq']",2,5,0.4974383693725426,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+135,"['DOW_Category_Freq', 'LONG_LAT_PCA', 'HOOD_Freq', 'Loca_Premi_Freq']",2,5,0.5001516206200004,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+136,"['DOW_Category_Freq', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'LOCATION_Freq']",2,5,0.505136684374679,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+137,"['DOW_Category_Freq', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'PREMISES_Freq']",2,5,0.5030312203776297,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+138,"['DOW_Category_Freq', 'LONG_LAT_PCA', 'DIV_HOOD_Hier', 'Loca_Premi_Freq']",2,5,0.5056665021486724,"[np.int64(2), np.int64(2), np.int64(2), np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15, 5, 10, 15]",1,2,5,15
+139,"['DOW_Category_Freq', 'LONG_WGS84', 'LAT_WGS84', 'LOCATION_Freq']",1,5,0.2275985774977059,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+140,"['DOW_Category_Freq', 'LONG_WGS84', 'LAT_WGS84', 'PREMISES_Freq']",1,5,0.20866810545941142,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+141,"['DOW_Category_Freq', 'LONG_WGS84', 'LAT_WGS84', 'Loca_Premi_Freq']",1,5,0.2057386151052598,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+142,"['DOW_Category_Freq', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq']",1,5,0.36183042829210255,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
+143,"['DOW_Category_Freq', 'LONG_WGS84', 'LAT_WGS84', 'Division_Freq', 'LOCATION_Freq']",1,5,0.2671886651975198,"[np.int64(1), np.int64(1), np.int64(1)]","[5, 10, 15]",1,1,5,15
